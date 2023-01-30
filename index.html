@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Sonic Visuals</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel='stylesheet' type='text/css' media='screen' href='bootstrap.min.css'>
+  <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+  <script src="mqtt.min.js"></script>
+  <script src="bootstrap.bundle.min.js"></script>
+  <script src='sonic.js'></script>
+</head>
+<body class="bg-dark text-light">
+  <div class="container-fluid text-center">
+    <div class="row">
+      <div class="col vh-100">
+        <div class="d-flex align-items-start align-items-center flex-column mb-3 vh-100">
+          <div id="note1_text" class="mb-auto p-2 fs-2 fw-bold">0%</div>
+          <div id="note1" class="m-2 bg-primary w-100">&nbsp;</div>
+          <div class="p-2 fs-2 fw-bold">Note 1</div>
+        </div>
+      </div>
+      <div class="col vh-100">
+        <div class="d-flex align-items-start align-items-center flex-column mb-3 vh-100">
+          <div id="note2_text" class="mb-auto p-2 fs-2 fw-bold">0%</div>
+          <div id="note2" class="m-2 bg-secondary w-100">&nbsp;</div>
+          <div class="p-2 fs-2 fw-bold">Note 2</div>
+        </div>
+      </div>
+      <div class="col vh-100">
+        <div class="d-flex align-items-start align-items-center flex-column mb-3 vh-100">
+          <div id="note3_text" class="mb-auto p-2 fs-2 fw-bold">0%</div>
+          <div id="note3" class="m-2 bg-warning w-100">&nbsp;</div>
+          <div class="p-2 fs-2 fw-bold">Note 3</div>
+        </div>
+      </div>
+      <div class="col vh-100">
+        <div class="d-flex align-items-start align-items-center flex-column mb-3 vh-100">
+          <div id="note4_text" class="mb-auto p-2 fs-2 fw-bold">0%</div>
+          <div id="note4" class="m-2 bg-success w-100">&nbsp;</div>
+          <div class="p-2 fs-2 fw-bold">Note 4</div>
+        </div>
+      </div>
+      <div class="col vh-100">
+        <div class="d-flex align-items-start align-items-center flex-column mb-3 vh-100">
+          <div id="bpm_text" class="mb-auto p-2 fs-2 fw-bold">0%</div>
+          <div id="bpm" class="m-2 bg-danger w-100">&nbsp;</div>
+          <div class="p-2 fs-2 fw-bold">BPM</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
